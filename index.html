@@ -34,6 +34,73 @@
           </li>
         </ul>
       </address>
+      <button type="button" class="button-ham-icon">
+        <svg class="icon-ham" width="24" height="24">
+          <use href="./images/icons.svg#con-ham-menu"></use>
+        </svg>
+      </button>
+    </div>
+
+    <!-- mobile-menu  -->
+    <div class="mobile-menu is-open-mobile">
+      <button type="button" class="close-btn">
+        <svg class="modal-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-iconclose"></use>
+        </svg>
+      </button>
+      <div class="navi-mobile">
+        <ul class="top-navi-mobile hamburger">
+          <li>
+            <a href="./index.html" class="link other hamburger">Studio</a>
+          </li>
+          <li>
+            <a href="" class="link other">Portfolio</a>
+          </li>
+          <li>
+            <a href="" class="link other">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <div class="mobile-adress">
+        <ul class="bottom-navi-mobile hamburger">
+          <li>
+            <a href="mailto:info@devstudio.com" class="link-address hamburger">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="link-address hamburger">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
+        <ul class="foot-ham hamburger">
+          <li class="social-logo">
+            <a href="" class="social-link foot-hov" target="_blank">
+              <svg class="social-logo-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-logo">
+            <a href="" class="social-link foot-hov" target="_blank">
+              <svg class="social-logo-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-logo">
+            <a href="" class="social-link foot-hov" target="_blank">
+              <svg class="social-logo-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-logo">
+            <a href="" class="social-link foot-hov" target="_blank">
+              <svg class="social-logo-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </header>
 
@@ -42,7 +109,7 @@
     <section class="main-one">
       <div class="container">
         <h1 class="first-round">Effective Solutions for Your Business</h1>
-        <button type="button" class="clicker">Order Service</button>
+        <button type="button" class="clicker back-button">Order Service</button>
       </div>
     </section>
 
@@ -58,7 +125,7 @@
                 <use href="./images/icons.svg#icon-antenna1"></use>
               </svg>
             </div>
-            <h3 class="second-nav">Strategy</h3>
+            <h3 class="second-nav mobile-size desktop-size">Strategy</h3>
             <p class="second-text">
               Our goal is to identify the business problem to walk away with
               the perfect and creative solution.
@@ -70,7 +137,7 @@
                 <use href="./images/icons.svg#icon-clock1"></use>
               </svg>
             </div>
-            <h3 class="second-nav">Punctuality</h3>
+            <h3 class="second-nav mobile-size desktop-size">Punctuality</h3>
             <p class="second-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
@@ -82,7 +149,7 @@
                 <use href="./images/icons.svg#icon-diagram1"></use>
               </svg>
             </div>
-            <h3 class="second-nav">Diligence</h3>
+            <h3 class="second-nav  mobile-size desktop-size">Diligence</h3>
             <p class="second-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
@@ -94,7 +161,7 @@
                 <use href="./images/icons.svg#icon-astronaut1"></use>
               </svg>
             </div>
-            <h3 class="second-nav">Technologies</h3>
+            <h3 class="second-nav  mobile-size desktop-size">Technologies</h3>
             <p class="second-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -111,7 +178,8 @@
         <h2 class="third-round">Our Team</h2>
         <ul class="team-list-container">
           <li class="team-list">
-            <img src="./images/human1.jpg" alt="Mark Guerrero" width="264" height="260">
+            <img srcset="./images/human1.jpg 1x, ./images/human1-2x.jpg 2x" src="./images/human1.jpg"
+              alt="Mark Guerrero" width="264" height="260">
             <div class="team-nav-container">
               <h3 class="team-nav">Mark Guerrero</h3>
               <p class="team-description">Product Designer</p>
@@ -148,7 +216,8 @@
             </div>
           </li>
           <li class="team-list">
-            <img src="./images/human2.jpg" alt="Tom Ford" width="264" height="260">
+            <img srcset="./images/human2.jpg 1x, ./images/human2-2x.jpg 2x" src="./images/human2.jpg" alt="Tom Ford"
+              width="264" height="260">
             <div class="team-nav-container">
               <h3 class="team-nav">Tom Ford</h3>
               <p class="team-description">Frontend Developer</p>
@@ -185,7 +254,8 @@
             </div>
           </li>
           <li class="team-list">
-            <img src="./images/human3.jpg" alt="Camila Garcia" width="264" height="260">
+            <img srcset="./images/human3.jpg 1x, ./images/human3-2x.jpg 2x" src="./images/human3.jpg"
+              alt="Camila Garcia" width="264" height="260">
             <div class="team-nav-container">
               <h3 class="team-nav">Camila Garcia</h3>
               <p class="team-description">Marketing</p>
@@ -222,7 +292,8 @@
             </div>
           </li>
           <li class="team-list">
-            <img src="./images/human4.jpg" alt="Daniel Wilson" width="264" height="260">
+            <img srcset="./images/human4.jpg 1x, ./images/human4-2x.jpg 2x" src="./images/human4.jpg"
+              alt="Daniel Wilson" width="264" height="260">
             <div class="team-nav-container">
               <h3 class="team-nav">Daniel Wilson</h3>
               <p class="team-description">UI Designer</p>
@@ -270,7 +341,15 @@
         <ul class="fourth-list">
           <li class="fourth-round-list transition-list">
             <div class="hidden-four">
-              <img src="./images/portfolio1.jpg" alt="Banking App" width="360" height="300">
+              <picture class="portfolio-photo">
+                <source media="(max-width: 767px)"
+                  srcset="./images/portfolio1-mobile.jpg 1x, ./images/portfolio1-mobile-2x.jpg 2x">
+                <source media="(min-width: 768px)"
+                  srcset="./images/portfolio1-tablet.jpg 1x, ./images/portfolio1-tablet-2x.jpg 2x">
+                <source media="(min-width: 1158px)"
+                  srcset="./images/portfolio1-desktop.jpg 1x, ./images/portfolio1-desktop-2x.jpg 2x">
+                <img src="./images/portfolio1-mobile.jpg" alt="Banking App">
+              </picture>
               <p class="hidden-text">
                 14 Stylish and User-Friendly App Design
                 Concepts · Task Manager App · Calorie
@@ -285,7 +364,15 @@
           </li>
           <li class="fourth-round-list transition-list">
             <div class="hidden-four">
-              <img src="./images/portfolio2.jpg" alt="Cashless Payment" width="360" height="300">
+              <picture class="portfolio-photo">
+                <source media="(max-width: 767px)"
+                  srcset="./images/portfolio2-mobile.jpg 1x, ./images/portfolio2-mobile-2x.jpg 2x">
+                <source media="(min-width: 768px)"
+                  srcset="./images/portfolio2-tablet.jpg 1x, ./images/portfolio2-tablet-2x.jpg 2x">
+                <source media="(min-width: 1158px)"
+                  srcset="./images/portfolio2-desktop.jpg 1x, ./images/portfolio2-desktop-2x.jpg 2x">
+                <img src="./images/portfolio2-mobile.jpg" alt="Cashless Payment">
+              </picture>
               <p class="hidden-text">
                 14 Stylish and User-Friendly App Design
                 Concepts · Task Manager App · Calorie
@@ -300,7 +387,15 @@
           </li>
           <li class="fourth-round-list transition-list">
             <div class="hidden-four">
-              <img src="./images/portfolio3.jpg" alt="Meditation App" width="360" height="300">
+              <picture class="portfolio-photo">
+                <source media="(max-width: 767px)"
+                  srcset="./images/portfolio3-mobile.jpg 1x, ./images/portfolio3-mobile-2x.jpg 2x">
+                <source media="(min-width: 768px)"
+                  srcset="./images/portfolio3-tablet.jpg 1x, ./images/portfolio3-tablet-2x.jpg 2x">
+                <source media="(min-width: 1158px)"
+                  srcset="./images/portfolio3-desktop.jpg 1x, ./images/portfolio3-desktop-2x.jpg 2x">
+                <img src="./images/portfolio3-mobile.jpg" alt="Meditation App">
+              </picture>
               <p class="hidden-text">
                 14 Stylish and User-Friendly App Design
                 Concepts · Task Manager App · Calorie
@@ -315,7 +410,15 @@
           </li>
           <li class="fourth-round-list transition-list">
             <div class="hidden-four">
-              <img src="./images/portfolio4.jpg" alt="Taxi Service" width="360" height="300">
+              <picture class="portfolio-photo">
+                <source media="(max-width: 767px)"
+                  srcset="./images/portfolio4-mobile.jpg 1x, ./images/portfolio4-mobile-2x.jpg 2x">
+                <source media="(min-width: 768px)"
+                  srcset="./images/portfolio4-tablet.jpg 1x, ./images/portfolio4-tablet-2x.jpg 2x">
+                <source media="(min-width: 1158px)"
+                  srcset="./images/portfolio4-desktop.jpg 1x, ./images/portfolio4-desktop-2x.jpg 2x">
+                <img src="./images/portfolio4-mobile.jpg" alt="Taxi Service">
+              </picture>
               <p class="hidden-text">
                 14 Stylish and User-Friendly App Design
                 Concepts · Task Manager App · Calorie
@@ -330,7 +433,15 @@
           </li>
           <li class="fourth-round-list transition-list">
             <div class="hidden-four">
-              <img src="./images/portfolio5.jpg" alt="Screen illustrations" width="360" height="300">
+              <picture class="portfolio-photo">
+                <source media="(max-width: 767px)"
+                  srcset="./images/portfolio5-mobile.jpg 1x, ./images/portfolio5-mobile-2x.jpg 2x">
+                <source media="(min-width: 768px)"
+                  srcset="./images/portfolio5-tablet.jpg 1x, ./images/portfolio5-tablet-2x.jpg 2x">
+                <source media="(min-width: 1158px)"
+                  srcset="./images/portfolio5-desktop.jpg 1x, ./images/portfolio5-desktop-2x.jpg 2x">
+                <img src="./images/portfolio5-mobile.jpg" alt="Screen Illustrations">
+              </picture>
               <p class="hidden-text">
                 14 Stylish and User-Friendly App Design
                 Concepts · Task Manager App · Calorie
@@ -345,7 +456,15 @@
           </li>
           <li class="fourth-round-list transition-list">
             <div class="hidden-four">
-              <img src="./images/portfolio6.jpg" alt="Online Courses" width="360" height="300">
+              <picture class="portfolio-photo">
+                <source media="(max-width: 767px)"
+                  srcset="./images/portfolio6-mobile.jpg 1x, ./images/portfolio6-mobile-2x.jpg 2x">
+                <source media="(min-width: 768px)"
+                  srcset="./images/portfolio6-tablet.jpg 1x, ./images/portfolio6-tablet-2x.jpg 2x">
+                <source media="(min-width: 1158px)"
+                  srcset="./images/portfolio6-desktop.jpg 1x, ./images/portfolio6-desktop-2x.jpg 2x">
+                <img src="./images/portfolio6-mobile.jpg" alt="Online Courses">
+              </picture>
               <p class="hidden-text">
                 14 Stylish and User-Friendly App Design
                 Concepts · Task Manager App · Calorie
@@ -378,28 +497,28 @@
         <p class="text-footer-socials">Social media</p>
         <ul class="footer-socials">
           <li class="social-logo-foot">
-            <a href="" class="footer-social-link">
+            <a href="" class="footer-social-link foot-hov">
               <svg class="social-logo-svg" width="24" height="24">
                 <use href="./images/icons.svg#icon-instagram1"></use>
               </svg>
             </a>
           </li>
           <li class="social-logo-foot">
-            <a href="" class="footer-social-link">
+            <a href="" class="footer-social-link foot-hov">
               <svg class="social-logo-svg" width="24" height="24">
                 <use href="./images/icons.svg#icon-twitter1"></use>
               </svg>
             </a>
           </li>
           <li class="social-logo-foot">
-            <a href="" class="footer-social-link">
+            <a href="" class="footer-social-link foot-hov">
               <svg class="social-logo-svg" width="24" height="24">
                 <use href="./images/icons.svg#icon-facebook1"></use>
               </svg>
             </a>
           </li>
           <li class="social-logo-foot">
-            <a href="" class="footer-social-link">
+            <a href="" class="footer-social-link foot-hov">
               <svg class="social-logo-svg" width="24" height="24">
                 <use href="./images/icons.svg#icon-linkedin1"></use>
               </svg>
@@ -413,7 +532,7 @@
           <label class="sub-email">
             <input type="email" class="sub-input-email" placeholder="E-mail" name="email" required>
           </label>
-          <button class="sub-button" type="submit">
+          <button class="sub-button back-button" type="submit">
             Subscribe
             <svg class="sub-icon" width="24" height="24">
               <use href="./images/icons.svg#icon-iconsend"></use>
@@ -426,9 +545,9 @@
 
   <!-- modal -->
 
-  <div class="backdrop is-open">
+  <div class="backdrop">
     <div class="modal">
-      <button type="button" class="close-btn">
+      <button type="button" class="close-btn back-button">
         <svg class="modal-close-icon" width="8" height="8">
           <use href="./images/icons.svg#icon-iconclose"></use>
         </svg>
@@ -479,7 +598,7 @@
             <a href="" class="link-privacy">Privacy Policy</a>
           </label>
         </div>
-        <button class="send-button" type="submit" name="submit">Send</button>
+        <button class="send-button back-button" type="submit" name="submit">Send</button>
       </form>
     </div>
   </div>
